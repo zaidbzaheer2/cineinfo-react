@@ -24,7 +24,7 @@ export const Detail = (id)=>{
                 <p className="text-sm">Release Date: {DateBuilderHelper(data.release_date)}</p>
                 <p className="text-sm">Revenue: {CurrencyFormatter(data.revenue)}</p>
                 <br></br>
-                {data.genres.map((el,i)=><span onClick={()=>navigate(`/genres/?genres=${el.id}&genre_name=${el.name}`)} className="bg-stone-200 dark:bg-blue-600 cursor-pointer hover:bg-stone-300 shadow-sm shadow-stone-500 mr-4 p-2  rounded-lg text-sm" key={i}>{el.name}</span>)}
+                {data.genres.slice(0,3).map((el,i)=> <span onClick={()=>navigate(`/genres/?genres=${el.id}&genre_name=${el.name}`)} className="bg-stone-200 dark:bg-blue-600 cursor-pointer hover:bg-stone-300 shadow-sm shadow-stone-500 mr-4 p-2  rounded-lg text-sm" key={i}>{el.name}</span>)}
                 <br/><br/>
                 <p className="text-2xl leading-10">Synopsis</p>
                 <p className="md:text-left">{data.overview}</p>
