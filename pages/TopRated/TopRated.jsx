@@ -9,7 +9,7 @@ export const TopRated = () =>{
     document.title = "Top Rated"
     return <section className="top-section w-full h-screen">
                 <div className="top-container flex flex-col items-center">
-                    <h2 className="section-heading text-xl md:self-start text-blue-600">Top Rated</h2>
+                    <h2 className="section-heading text-2xl md:self-start text-blue-700">Top Rated</h2>
                     {data && <CardList data={data}/>}
                     {error && <p>Error Fetching: {error}</p>}
                     {loading && <LoadingAnimation size={15} color={"dodgerblue"} loading={loading}/>}

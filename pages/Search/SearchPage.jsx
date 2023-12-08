@@ -10,7 +10,7 @@ export const SearchPage = ()=>{
     document.title = "Search Results for "+query
     return <section className="search-section w-full h-screen">
         <div className="search-container flex flex-col items-center">
-            <h2 className="section-heading text-xl md:self-start text-blue-600">Search Results for {"'"+params.get("q")+"'"}</h2>
+            <h2 className="section-heading text-2xl md:self-start text-blue-700">Search Results for {"'"+params.get("q")+"'"}</h2>
             {error && <NotFound/>}
             {loading && <PulseLoader loading={loading} size={15} color="dodgerblue"/>}
             {data && <CardList data={data}/>}

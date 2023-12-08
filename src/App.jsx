@@ -11,7 +11,7 @@ const App = () =>{
   useEffect(()=>{
     localStorage.setItem(THEME_KEY, dark)
     const htmlEl = document.querySelector('html')
-    htmlEl.style.backgroundColor = dark? "black":"white"
+    htmlEl.style.backgroundColor = dark? "#0a0a0a":"white"
   }, [dark, setDark])
   return (
     <main className={(dark? "dark text-white":"")}>

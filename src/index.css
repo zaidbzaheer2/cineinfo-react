@@ -35,7 +35,7 @@ input[type="search"]{
   z-index: 900;
 } 
 a.active li{
-  border-bottom: 2px solid dodgerblue;
+  border-bottom: 2px solid dodgerblue !important;
 
 }
 .section-heading{

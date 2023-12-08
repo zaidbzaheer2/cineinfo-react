@@ -11,7 +11,7 @@ export const GenresPage = ()=>{
     console.log(data)
     return <section className="genres-section w-full h-screen">
     <div className="genres-container flex flex-col items-center">
-        <h2 className="section-heading text-xl md:self-start text-blue-600">Category: {g_name}</h2>
+        <h2 className="section-heading text-2xl md:self-start text-blue-700">Category: {g_name}</h2>
         {error && <NotFound/>}
         {loading && <PulseLoader loading={loading} size={15} color="dodgerblue"/>}
         {data && <CardList data={data}/>}
