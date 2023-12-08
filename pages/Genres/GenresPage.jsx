@@ -7,7 +7,7 @@ export const GenresPage = ()=>{
     const genres = params.get('genres')
     const g_name = params.get('genre_name')
     const [setURL,data,loading,error] = useFetch(`https://api.themoviedb.org/3/discover/movie?&with_genres=${genres}`)
-    document.title = "Category: "+ genres
+    document.title = "Category: "+ g_name
     console.log(data)
     return <section className="genres-section w-full h-screen">
     <div className="genres-container flex flex-col items-center">
