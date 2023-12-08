@@ -1,5 +1,5 @@
 import "./header.css"
-import { DropDown } from "../Dropdown/dropdown"
+import {DropDown} from "../../components"
 import { Link, NavLink } from "react-router-dom"
 import { useState } from "react"
 
