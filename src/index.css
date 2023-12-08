@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins:wght@400;500;600;700&family=Roboto+Slab:wght@300&family=Young+Serif&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --faded-border : linear-gradient(to right, white, rgb(204, 204, 204), white);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+.faded-border{
+  border-image: var(--faded-border);
+  border-image-slice: 1;
+}
+input[type="search"]{
+  color: black;
+}
+.heading{
+  font-family: 'Poppins';
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 5px;
+}
+.row-list{
+  display: inline-block;
+  list-style-type: none;
+}
+.header-section{
+  z-index: 1000;
+}
+.hero-section{
+  z-index: 900;
+} 
+a.active li{
+  border-bottom: 2px solid dodgerblue;
+
+}
+.section-heading{
+  margin-bottom: 30px;
+  align-self: center !important;
+  font-family: 'Young Serif', serif;
+  
+}

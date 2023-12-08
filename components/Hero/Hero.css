@@ -1,0 +1,22 @@
+.black-scroll::-webkit-scrollbar{
+    background: black;
+    width: 10px;
+}
+.black-scroll::-webkit-scrollbar-thumb{
+    background: rgb(92, 91, 91);
+    border-radius: 120px;
+}
+.white-scroll::-webkit-scrollbar{
+    background: white;
+    width: 10px;
+}
+.white-scroll::-webkit-scrollbar-thumb{
+    background: rgb(212, 207, 207);
+    border-radius: 120px;
+}
+.white-scroll::-webkit-scrollbar-thumb:hover{
+    background: rgb(185, 179, 179);
+}
+.black-scroll::-webkit-scrollbar-thumb:hover{
+    background: rgb(58, 56, 56);
+}

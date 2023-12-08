@@ -1,0 +1,6 @@
+{
+ "media":[
+    {"id":1 ,"title":"Attack on Titan", "rating": 9.24, "release":"23 Oct, 2024", "revenue":"$1,352,299", "thumb":"../static/aot.jpg", "synopsis":"After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction."},
+    {"id": 2,"title":"Batman", "rating": 8.2, "release":"19 Nov, 2124", "revenue":"$6,684,546","thumb":"../static/batman.jpg"}
+ ]   
+}

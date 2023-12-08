@@ -1,0 +1,10 @@
+.web-logo img{
+    width: 80px;
+    height: 80px;
+}
+@media screen and (max-width: 640px) {
+    .web-logo img{
+        width: 60px;
+        height: 60px;
+    }
+}
